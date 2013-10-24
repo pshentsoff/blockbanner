@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin>
+  <name>
+    <lang name="default">Blockbanner</lang>
+    </name>
+  <author>
+    <lang name="default">pshentsoff</lang>
+    </author>
+  <homepage>http://pshentsoff.ru</homepage>
+  <version>0.1.8</version>
+  <requires>
+    <livestreet>1.x</livestreet>
+    <plugins>
+      </plugins>
+    <system>
+      <php>5.3.1</php>
+      </system>
+    </requires>
+  <description>
+    <lang name="default">Banners Blocks management with template hooks and ACP</lang>
+    <lang name="russian">Управление блоками/группами баннеров через шаблонные хуки и админку</lang>
+    </description>
+  <settings>{blockbanner}</settings>
+  <delegate>
+    <module></module>
+    <action></action>
+    <template></template>
+    <entity></entity>
+    </delegate>
+  </plugin>

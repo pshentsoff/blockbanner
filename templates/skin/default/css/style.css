@@ -1,0 +1,79 @@
+/* CSS file */
+
+.blockbanner {
+    /*position: absolute;*/
+    margin-top: -98px;
+    margin-left: 255px;
+    width: 442px;
+}
+
+/*Block type - Banners*/
+.blockbanner {}
+.blockbanner-content {
+    width: 315px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+.blockbanner-banner {
+    padding: 5px;
+}
+.blockbanner-banner img {
+    max-width: 310px;
+    max-height: 100px;
+}
+
+table.blockbanner-admin{
+    width: 100%;
+}
+
+table.blockbanner-admin thead td{
+    font-weight: bold;
+    text-align: center;
+}
+
+table.blockbanner-admin tr{
+    padding: 5px;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+table.blockbanner-admin td{
+    min-width: 50px;
+    padding: 5px;
+    text-align: right;
+}
+
+table.blockbanner-admin tbody tr td select {
+    height: 176px;
+}
+
+table.blockbanner-admin tfoot tr td{
+    text-align: left;
+}
+
+input.blockbanner-admin {
+    min-width: 50px;
+    padding: 5px;
+}
+
+.preview-thumb {
+    width: 200px;
+}
+
+input.twodigits {
+    width: 30px;
+    text-align: right;
+}
+
+input.twicelonger {
+    width: 250px;
+}
+
+.blockbanner-menu {
+    padding: 15px;
+}
+
+.blockbanner-horz {
+    width: 970px;
+    padding: 5px;
+}
